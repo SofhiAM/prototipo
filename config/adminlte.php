@@ -349,9 +349,9 @@ return [
             'icon' => 'fas fa-fw fa-users',
         ],
         [
-            'text' => 'Calificaciones',
+            'text' => 'Ofertas',
             'url'  => '/regnotas/listado',
-            'icon' => 'fas fa-fw fa-book',
+            'icon' => 'fas fa-briefcase',
         ],
 
         [
