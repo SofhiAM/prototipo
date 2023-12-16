@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'Sistema Academico',
+    'title' => 'Sistema Udepractis',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Sistema Academico </b>',
+    'logo' => '<b>Sistema Udepractis </b>',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -300,6 +300,12 @@ return [
             'type'         => 'fullscreen-widget',
             'topnav_right' => true,
         ],
+        [
+            'text' => ' ¿Quieres unirte a nosotros?',
+            'url'  => '/empresas/registrarEmp',
+            'icon' => 'fas fa-fw fa-user-plus', // Puedes cambiar esto al icono que prefieras
+            'topnav_right' => true, // Esto coloca el enlace en la esquina derecha del navbar
+        ],
 
         // Sidebar items
         /*
@@ -321,7 +327,7 @@ return [
         ],
 
         */
-        ['header' => 'Sistema de Información'],
+        ['header' => 'Menu de Información'],
         [
             'text' => 'Facultades',
             'url'  => '/facultades/listado',
@@ -352,6 +358,12 @@ return [
             'text' => 'Reportes',
             'url'  => '/reportes/listado',
             'icon' => 'fas fa-fw fa-book',
+        ],
+
+        [
+            'text' => 'Empresas',
+            'url'  => '/empresas/empresas',
+            'icon' => 'fas fa-building',
         ],
 
         /*
