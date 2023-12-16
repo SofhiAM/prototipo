@@ -10,4 +10,8 @@ class Estudiantes extends Controller
     public function index(){
         return view('estudiantes.listado');
     }
+
+    public function login(){
+        return view('estudiantes.login');
+    }
 }

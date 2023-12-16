@@ -8,8 +8,7 @@ use App\Http\Controllers\Estudiantes;
 use App\Http\Controllers\Calificaciones;
 use App\Http\Controllers\Profesores;
 use App\Http\Controllers\Empresas;
-use App\Http\Controllers\registrarEmp;
-use App\Http\Controllers\PerfilEmp;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -50,10 +49,15 @@ Route::get('/regnotas/listado', [Calificaciones::class, 'index']);
 
 Route::get('/empresas/empresas', [Empresas::class, 'index']);
 
-Route::get('/empresas/registrarEmp', [registrarEmp::class, 'index']);
+Route::get('/empresas/registrarEmp', [Empresas::class, 'registrar']);
 
-Route::get('/empresas/perfil', [PerfilEmp::class, 'index']);
+Route::get('/empresas/perfil', [Empresas::class, 'perfil']);
 
+Route::get('/empresas/login', [Empresas::class, 'login']);
+
+Route::get('/estudiantes/login', [Estudiantes::class, 'login']);
+
+Route::get('/empresas/oferta', [Empresas::class, 'oferta']);
 
 
 

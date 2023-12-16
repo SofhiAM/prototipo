@@ -300,12 +300,12 @@ return [
             'type'         => 'fullscreen-widget',
             'topnav_right' => true,
         ],
-        [
-            'text' => ' ¿Quieres unirte a nosotros?',
-            'url'  => '/empresas/registrarEmp',
-            'icon' => 'fas fa-fw fa-user-plus', // Puedes cambiar esto al icono que prefieras
-            'topnav_right' => true, // Esto coloca el enlace en la esquina derecha del navbar
-        ],
+        // [
+        //     'text' => ' ¿Quieres unirte a nosotros?',
+        //     'url'  => '/empresas/registrarEmp',
+        //     'icon' => 'fas fa-fw fa-user-plus', // Puedes cambiar esto al icono que prefieras
+        //     'topnav_right' => true, // Esto coloca el enlace en la esquina derecha del navbar
+        // ],
 
         // Sidebar items
         /*
